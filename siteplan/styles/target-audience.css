@@ -5,18 +5,17 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  background-color: #ffdbc2;
+  background-color: white;
 }
 
 nav {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 150px 50px 50px 50px 50px;
-  background-color: #066489;
-  border-radius: 30px;
-  margin: 10px;
-  padding-bottom: 20px;
+  background-color: #f6b379;
+  padding: 20px;
   opacity: 0.8;
+  position: sticky;
 }
 
 .centerContent {
@@ -27,7 +26,6 @@ nav {
 #chamberImg {
   grid-column: 1;
   grid-row: 1;
-  height: 130px;
   margin: auto;
 }
 
@@ -35,50 +33,49 @@ nav {
   grid-column: 1;
   grid-row: 3;
   margin: auto;
-  color: white;
+  color: black;
   font-size: 20px;
   text-decoration: none;
-  font-family: "Bitter", serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #colorScheme {
   grid-column: 1;
   grid-row: 2;
   margin: auto;
-  color: white;
+  color: black;
   font-size: 20px;
   text-decoration: none;
-  font-family: "Bitter", serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #text {
   grid-column: 1;
   grid-row: 4;
   margin: auto;
-  color: white;
+  color: black;
   font-size: 20px;
   text-decoration: none;
-  font-family: "Bitter", serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 #home {
   grid-column: 1;
   grid-row: 5;
   margin: auto;
-  color: white;
+  color: black;
   font-size: 20px;
   text-decoration: none;
-  font-family: "Bitter", serif;
+  font-family: "PT Sans", sans-serif;
 }
 
 h1,
 h2 {
-  color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a:hover {
-  background-color: #ff5858;
+  background-color: white;
   border-radius: 30px;
   padding: 10px;
 }
@@ -90,7 +87,7 @@ h2 {
 
 p {
   font-size: 15px;
-  font-family: "Bitter", serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 20px;
 }
 
@@ -105,8 +102,8 @@ li {
 }
 
 h1 {
-  color: #066489;
-  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-family: "Inter", sans-serif;
   font-weight: 200;
 }
 
