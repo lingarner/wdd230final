@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  background-color: #ffdbc2;
+  background-color: white;
   max-height: fit-content;
 }
 
@@ -82,6 +82,10 @@ p {
   font-size: 15px;
   font-family: "PT Sans", sans-serif;
   line-height: 20px;
+}
+
+.imgcenter {
+  grid-column: 1/4;
 }
 
 /* colors
