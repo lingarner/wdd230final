@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: #ffdbc2;
+  max-height: fit-content;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 50px 50px 50px;
+  background-color: #066489;
+  border-radius: 30px;
+  margin: 20px;
+  padding-bottom: 20px;
+  opacity: 0.8;
+}
+
+.centerContent {
+  text-align: center;
+  margin: 10px;
+}
+
+#chamberImg {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0 auto;
+  height: 130px;
+}
+
+#audience {
+  grid-column: 1;
+  grid-row: 3;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+#colorScheme {
+  grid-column: 1;
+  grid-row: 2;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+#text {
+  grid-column: 1;
+  grid-row: 4;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+h1 {
+  color: #066489;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+a:hover {
+  background-color: #ff5858;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+  color: #066489;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Bitter", serif;
+  line-height: 20px;
+}
+
+/* colors
+tan: #FFDBC2
+red:#ff5858
+blue:#066489
+black:
+ */
+
+@media screen and (min-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  #chamberImg {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #audience {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #colorScheme {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #text {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .centerContent {
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  main {
+    grid-column: 2;
+  }
+}

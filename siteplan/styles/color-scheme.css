@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: #ffdbc2;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 50px 50px 50px 50px;
+  background-color: #066489;
+  border-radius: 30px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+.centerContent {
+  text-align: center;
+  margin: 10px;
+}
+
+#chamberImg {
+  grid-column: 1;
+  grid-row: 1;
+  height: 130px;
+  margin: auto;
+}
+
+#audience {
+  grid-column: 1;
+  grid-row: 3;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+#colorScheme {
+  grid-column: 1;
+  grid-row: 2;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+#text {
+  grid-column: 1;
+  grid-row: 4;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+#home {
+  grid-column: 1;
+  grid-row: 5;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+}
+
+h1,
+h2 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+a:hover {
+  background-color: #ff5858;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+h2 {
+  text-decoration: underline;
+  color: #066489;
+}
+
+p {
+  font-size: 15px;
+  font-family: "Bitter", serif;
+  line-height: 20px;
+}
+
+.colors {
+  border: 5px solid black;
+}
+
+section {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #066489;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 200;
+}
+
+/* colors
+tan: #FFDBC2
+red:#ff5858
+blue:#066489
+black:
+ */
+
+@media screen and (min-width: 700px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  #chamberImg {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #audience {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  #colorScheme {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #text {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  #home {
+    grid-column: 5;
+    grid-row: 1;
+  }
+}

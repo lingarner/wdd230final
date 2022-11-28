@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 /* header */
 header,
@@ -37,6 +38,10 @@ a {
 a:hover {
   color: white;
   /* text-decoration: underline; */
+}
+
+p {
+  font-family: "Inter", sans-serif;
 }
 
 .hero {
@@ -136,15 +141,27 @@ body {
   align-items: center;
   justify-content: space-around;
   height: 500px;
-  background-color: #f6b379;
+  /* rgba(255, 0, 0, 0) */
+  background-image: linear-gradient(to top, #fce9d9, #f6b379);
 }
 
 .favorites-pic {
+  position: relative;
+  z-index: 2;
   height: 400px;
   width: 300px;
   overflow: hidden;
   border-radius: 25px;
   box-shadow: 3px 3px 20px #13213a;
+}
+
+.above-photos {
+  z-index: 3;
+
+  /* background-color: aqua; */
+}
+.above-photos:hover {
+  color: white;
 }
 
 .favorites-pic img {
@@ -179,7 +196,7 @@ body {
 .email {
   grid-column: 5/7;
   grid-row: 2;
-  height: 400px;
+  height: 410px;
   width: 600px;
   background-color: #13213a;
   color: white;
@@ -212,6 +229,11 @@ body {
 #email-button:hover {
   background-color: #f6b379;
   border: 2px solid white;
+}
+
+#fun-title {
+  font-family: "Caesar Dressing", cursive;
+  letter-spacing: 1.3px;
 }
 /* end main */
 
