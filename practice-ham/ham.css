@@ -1,60 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-
-/* extra: font-family: "Caesar Dressing", cursive;
-  titles: font-family: "PT Sans", sans-serif;
-  text: font-family: 'Inter';
-*/
-
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.flexy {
-  display: flex;
-  flex-direction: column;
-}
-
-.heroimg {
-  bottom: -60px;
-}
-
-header {
-  margin-left: 0;
-  width: 100%;
-  background-color: #f6b379;
-  opacity: 0.7;
-  z-index: 2;
-}
-
-nav {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-nav img {
-  margin: auto 0;
-}
-
-nav ul {
-  grid-column: 1/3;
-  text-align: center;
-  list-style: none;
-  display: none;
-}
-
-nav ul li {
-  margin: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-}
-/* menu */
 
 .menu-btn {
   position: relative;
@@ -62,27 +10,26 @@ nav a {
   justify-content: center;
   align-items: center;
   width: 80px;
-  height: 60px;
+  height: 80px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   /* border: 3px solid black; */
 }
 
 .menu-btn-burger {
-  width: 40px;
+  width: 50px;
   height: 6px;
   background: black;
   border-radius: 5px;
   /* box-shadow: 0 2px 5px rgba(255, 101, 40, 0.2); */
   transition: all 0.5s ease-in-out;
-  opacity: 0.8;
 }
 
 .menu-btn-burger::before,
 .menu-btn-burger::after {
   content: "";
   position: absolute;
-  width: 40px;
+  width: 50px;
   height: 6px;
   background: black;
   border-radius: 5px;
@@ -98,7 +45,7 @@ nav a {
   transform: translateY(16px);
 }
 
-/* animation */
+/* menu animation */
 
 .menu-btn.open .menu-btn-burger {
   transform: translateX(-50px);
@@ -111,4 +58,8 @@ nav a {
 
 .menu-btn.open .menu-btn-burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
+}
+
+nav {
+  display: none;
 }
