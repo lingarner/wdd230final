@@ -10,16 +10,21 @@
 */
 
 body {
-  margin: 0;
+  margin: 10px;
+  width: 100%;
 }
 
-.flexy {
-  display: flex;
-  flex-direction: column;
-}
+.bg-image {
+  width: 100%;
 
-.heroimg {
-  bottom: -60px;
+  background-image: url("https://lingarner.github.io/wdd230final/final/images/hero2-small.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: 100% 100%;
+
+  height: 400px;
+  object-fit: cover;
 }
 
 header {
@@ -28,6 +33,7 @@ header {
   background-color: #f6b379;
   opacity: 0.7;
   z-index: 2;
+  padding: 10px;
 }
 
 nav {
@@ -37,6 +43,7 @@ nav {
 
 nav img {
   margin: auto 0;
+  width: 260px;
 }
 
 nav ul {
@@ -47,14 +54,28 @@ nav ul {
 }
 
 nav ul li {
-  margin: 10px;
+  margin: 20px;
+}
+
+nav ul li:nth-child(1) {
+  margin-top: 0px;
 }
 
 nav a {
   text-decoration: none;
   color: black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: white;
 }
 /* menu */
+
+.btn-together {
+  margin: 0 auto;
+}
 
 .menu-btn {
   position: relative;
@@ -111,4 +132,178 @@ nav a {
 
 .menu-btn.open .menu-btn-burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* hero message  */
+
+.hero-message {
+  /* margin-top: 30px; */
+  background-color: #6c8991;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 20px black;
+  border-radius: 30px;
+  width: 250px;
+  margin: 30px auto;
+}
+
+h3,
+h2 {
+  font-family: "PT Sans", sans-serif;
+}
+
+p {
+  font-family: "Inter";
+}
+
+#heading-message {
+  font-family: "PT Sans", sans-serif;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 3px 3px 20px black;
+}
+
+#insta-text {
+  font-family: "Caesar Dressing", cursive;
+
+  font-size: 30px;
+  color: black;
+}
+
+#insta-text:hover {
+  color: #f6b379;
+}
+
+/* main */
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#cactus-flower,
+#jump {
+  width: 300px;
+  margin-top: 30px;
+  box-shadow: 3px 3px 20px black;
+}
+
+.purpose {
+  padding: 0px;
+}
+
+/* carousel */
+.favorite-heading {
+  text-align: center;
+
+  font-size: 40px;
+
+  margin-bottom: 10px;
+}
+
+.favorites {
+  display: flex;
+
+  justify-items: center;
+
+  align-items: center;
+
+  justify-content: space-around;
+
+  height: 500px;
+
+  /* rgba(255, 0, 0, 0) */
+
+  background-image: linear-gradient(to top, #fce9d9, #f6b379);
+
+  overflow: hidden;
+}
+
+.favorites-pic {
+  position: relative;
+
+  z-index: 2;
+
+  height: 400px;
+
+  width: 300px;
+
+  overflow: hidden;
+
+  border-radius: 25px;
+
+  box-shadow: 3px 3px 20px #13213a;
+}
+
+.above-photos {
+  z-index: 3;
+
+  /* background-color: aqua; */
+}
+
+.above-photos:hover {
+  color: white;
+}
+
+.favorites-pic img {
+  transition: transform 0.5s ease-in-out;
+}
+
+.favorites-pic img:hover {
+  transform: scale(1.06);
+}
+
+.email-sign-up {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#email-button {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #6c8991;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  border: none;
+}
+
+#email-button:hover {
+  background-color: #f6b379;
+}
+
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f6b379;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.social i {
+  color: black;
+  text-decoration: none;
+}
+
+i:hover {
+  color: white;
+}
+
+.social ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  font-size: 3em;
+
+  margin: 30px;
 }
