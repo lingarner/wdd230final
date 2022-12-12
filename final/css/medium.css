@@ -35,7 +35,7 @@
     width: auto;
   }
 
-  main {
+  .main-grid {
     width: auto;
   }
 
@@ -62,5 +62,74 @@
 
   .email {
     width: 500px;
+  }
+
+  .small {
+    display: none;
+  }
+
+  .larger {
+    display: block;
+  }
+
+  #headpics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+  }
+
+  .slideshow-container {
+    grid-column: 1/7;
+    grid-row: 1/4;
+  }
+
+  #intro {
+    margin: auto 0;
+    grid-column: 1/5;
+    grid-row: 2;
+    z-index: 4;
+    text-shadow: 2px 2px 10px black;
+  }
+
+  .photosMain h1 {
+    font-size: 50px;
+    text-decoration: underline;
+  }
+
+  #intro h3 {
+    font-size: 70px;
+    letter-spacing: 10px;
+    margin: 0;
+  }
+
+  #bio {
+    display: flex;
+    text-align: left;
+    font-size: 25px;
+  }
+
+  #bio p {
+    margin: 10px;
+    line-height: 40px;
+  }
+
+  .photosMain {
+    margin: 50px;
+  }
+
+  #goleft {
+    text-align: left;
+    margin: 30px;
+    font-size: 50px;
+  }
+
+  .fitsm {
+    height: 400px;
+    margin: 20px;
+  }
+
+  #titleHover,
+  #pictitles:hover {
+    color: #f6b379;
   }
 }

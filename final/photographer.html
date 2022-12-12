@@ -22,10 +22,11 @@
     <link rel="shortcut icon" href="favicon-2.ico" />
     <!-- javascript -->
     <script defer src="../carousel-practice/carousel.js"></script>
+    <script defer src="./js/slideshow.js"></script>
     <script defer src="./js/ham.js"></script>
   </head>
   <body>
-    <header>
+    <header id="photoHead">
       <nav>
         <img src="./images/az-hiking-logo-2.png" alt="logo" />
         <div class="btn-together">
@@ -35,7 +36,7 @@
         </div>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="./index.html">Home</a>
           </li>
           <li>
             <a href="#">Explore</a>
@@ -49,7 +50,75 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main class="photosMain">
+      <h1>Meet the Photographer</h1>
+      <div id="headpics">
+        <section id="intro">
+          <h2>Owner and Creator of AZ Hiking Photos</h2>
+          <h3>David D. Garner</h3>
+        </section>
+
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="./images/profile-small-2-sm.jpg" class="small" />
+            <img src="./images/profile1.jpg" class="larger" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./images/profile-small-sm.jpg" class="small" />
+            <img src="./images/profile2.jpg" class="larger" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="./images/profile-small-3-sm.jpg" class="small" />
+            <img src="./images/profile3.jpg" class="larger" />
+          </div>
+        </div>
+      </div>
+
+      <h2 id="goleft">About David</h2>
+
+      <section id="bio">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+          dolor sit ametconsectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum. quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+    </main>
     <footer>
       <img src="./images/az-hiking-logo-2.png" alt="logo" id="small-dis" />
       <div class="social">

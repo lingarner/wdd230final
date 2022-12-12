@@ -338,4 +338,38 @@
           overflow: hidden;
       
       } */
+
+  .slideshow-container {
+    grid-column: 3/7;
+    grid-row: 1/4;
+  }
+
+  /* #intro {
+    margin: auto 0;
+    grid-column: 1/5;
+    grid-row: 2;
+    z-index: 4;
+    text-shadow: 2px 2px 10px black;
+  } */
+
+  .fit {
+    display: block;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0 auto;
+    border: 6px solid black;
+    box-shadow: 3px 3px 20px #13213a;
+  }
+
+  .fitsm {
+    display: none;
+  }
+
+  .photogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 40px;
+  }
 }

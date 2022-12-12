@@ -155,12 +155,17 @@ nav a:hover {
 }
 
 h3,
-h2 {
+h2,
+h1 {
   font-family: "PT Sans", sans-serif;
 }
 
 p {
   font-family: "Inter";
+}
+
+#bio p {
+  font-size: 20px;
 }
 
 #heading-message {
@@ -184,11 +189,11 @@ p {
 
 /* main */
 
-main {
+.main-grid {
   margin: 0 auto;
   text-align: center;
   padding: 20px;
-  width: 300px;
+  width: 370px;
 }
 
 #cactus-flower,
@@ -301,6 +306,10 @@ i:hover {
   color: white;
 }
 
+i {
+  display: inline;
+}
+
 .social ul {
   list-style: none;
   padding-left: 0px;
@@ -318,4 +327,113 @@ i {
 
 #small-dis {
   display: none;
+}
+/*  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/* PHOTOGRAPHER */
+.photosMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.photosMain h1 {
+  font-size: 2.7em;
+  text-decoration: underline;
+  margin: 0.67em 0;
+}
+
+#bio {
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding: 10px;
+}
+
+.slideshow-container img {
+  box-shadow: 3px 3px 20px #13213a;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.7;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.larger {
+  display: none;
+}
+
+#headpics {
+  background-color: #f6b379;
+}
+
+/* timp set */
+#timp-set {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px;
+}
+
+.fitsm {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  border: 6px solid black;
+  box-shadow: 3px 3px 20px #13213a;
+}
+
+.fit {
+  display: none;
+}
+
+#center {
+  justify-content: center;
+}
+
+#pictitles {
+  text-decoration: underline;
+  font-size: 40px;
+  display: inline;
 }
