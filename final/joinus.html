@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AZ Hiking Photos</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="./favicon-2.ico" />
+    <!-- javascript -->
+    <script defer src="../carousel-practice/carousel.js"></script>
+    <script defer src="./js/ham.js"></script>
+  
+  <body>
+    <div class="bg-image">
+      <div id="flexy">
+        <header>
+          <nav>
+            <img src="./images/az-hiking-logo-2.png" alt="logo" />
+            <div class="btn-together">
+              <div class="menu-btn">
+                <div class="menu-btn-burger"></div>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Explore</a>
+              </li>
+              <li>
+                <a href="./photographer.html">Photographer</a>
+              </li>
+              <li>
+                <a href="./joinus.html">Join Us</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+    
+    <main id="joinMain">
+            <form method="get" action="thankyou.html">
+              <h1 id="memberTitle">Membership Form</h1>
+    
+              <label for="fname">First Name*:</label>
+              <input
+                id="fname"
+                placeholder="First Name"
+                type="text"
+                name="firstname"
+                required
+              />
+    
+              <label for="lname">Last Name*:</label>
+              <input
+                id="lname"
+                placeholder="Last Name"
+                type="text"
+                name="lastname"
+                required
+              />
+    
+              <label for="title"
+                >Business Position Title * (Only letter, spaces, and
+                numbers):</label
+              >
+              <input
+                required
+                id="title"
+                placeholder="Title"
+                name="biztitle"
+                pattern="[- A-Za-z]+"
+                minlength="7"
+              />
+    
+              <label for="email">Email:</label>
+              <input id="email" placeholder="Email" type="email" name="email" />
+    
+              <label for="phone">Phone number:</label>
+              <input
+                required
+                id="phone"
+                placeholder="Phone Number"
+                type="tel"
+                name="cell"
+              />
+    
+              <label id="member">Enter Your Membership</label>
+              <div id="radio">
+                <div>
+                  <input type="radio" id="one" name="mlevel" value="np" />
+                  <label for="one">Non Profit</label>
+                </div>
+    
+                <div>
+                  <input type="radio" id="two" name="mlevel" value="bronze" />
+                  <label for="two">Bronze</label>
+                </div>
+    
+                <div>
+                  <input type="radio" id="three" name="mlevel" value="silver" />
+                  <label for="three">Silver</label>
+                </div>
+    
+                <div>
+                  <input type="radio" id="four" name="mlevel" value="gold" />
+                  <label for="four">Gold</label>
+                </div>
+              </div>
+    
+              <label for="message">Business Description</label>
+              <textarea id="message" placeholder="Description"></textarea>
+    
+              <input id="date" type="hidden" name="todaydate" />
+    
+              <input id="button" type="submit" value="Join Us!" />
+            </form>
+    
+      
+
+    
+    </main>
+    <footer>
+      <img src="./images/az-hiking-logo-2.png" alt="logo" id="small-dis" />
+      <div class="social">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/home" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <img src="./images/az-hiking-logo-2.png" alt="logo" id="large-dis" />
+    </footer>
+  </body>
+</html>
