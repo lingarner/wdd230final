@@ -79,7 +79,7 @@ nav a {
   text-decoration: none;
   color: black;
   font-family: "PT Sans", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 nav a:hover {
@@ -284,7 +284,7 @@ p {
 #email-button {
   padding: 15px;
   border-radius: 20px;
-  background-color: #6c8991;
+  background-color: #13213a;
   color: white;
   font-family: "PT Sans", sans-serif;
   border: none;
@@ -479,12 +479,12 @@ form {
   margin-top: 30px;
   padding: 13px;
   border-radius: 20px;
-  background-color: #6c8991;
+  background-color: #13213a;
   color: white;
   font-family: "PT Sans", sans-serif;
   border: none;
 }
 
-footer p {
+footer ul p {
   display: none;
 }
