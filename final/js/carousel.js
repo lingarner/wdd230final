@@ -9,21 +9,21 @@ let activeIndex = 0; // the current page on the slider
 let movies = [
   {
     src: "https://lingarner.github.io/wdd230final/final/images/faves1.jpg",
-    href: "https://lingarner.github.io/wdd230final/final/coyotegulch.html",
+    href: "https://lingarner.github.io/wdd230final/final/timp-set.html",
   },
   {
     src: "https://lingarner.github.io/wdd230final/final/images/fave2.png",
-    href: "https://lingarner.github.io/wdd230final/final/timp-set.html",
-  },
-
-  {
-    src: "https://lingarner.github.io/wdd230final/final/images/fave3.png",
     href: "https://lingarner.github.io/wdd230final/final/paria.html",
   },
 
   {
-    src: "https://lingarner.github.io/wdd230final/final/images/fave4.png",
+    src: "https://lingarner.github.io/wdd230final/final/images/fave3.png",
     href: "https://lingarner.github.io/wdd230final/final/aravipa.html",
+  },
+
+  {
+    src: "https://lingarner.github.io/wdd230final/final/images/fave4.png",
+    href: "https://lingarner.github.io/wdd230final/final/coyotegulch.html",
   },
   //   {
   //     src: "https://lingarner.github.io/wdd230final/final/images/timp-set/9-300.png",
