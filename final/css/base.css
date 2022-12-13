@@ -484,3 +484,7 @@ form {
   font-family: "PT Sans", sans-serif;
   border: none;
 }
+
+footer p {
+  display: none;
+}
