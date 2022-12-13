@@ -20,7 +20,6 @@
   }
 
   .purpose {
-    display: flex;
     align-items: center;
   }
 
@@ -131,5 +130,14 @@
   #titleHover,
   #pictitles:hover {
     color: #f6b379;
+  }
+  .slider {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .movie:hover {
+    transform: scale(1.1);
+    z-index: 2;
   }
 }

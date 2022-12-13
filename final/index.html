@@ -25,9 +25,10 @@
     />
     <link rel="shortcut icon" href="./favicon-2.ico" />
     <!-- javascript -->
-    <script defer src="../carousel-practice/carousel.js"></script>
+ 
     <script defer src="./js/ham.js"></script>
     <script defer src="./js/lastupdated.js"></script>
+    <script defer src="./js/carousel.js"></script>
   
   <body>
     <div class="bg-image">
@@ -94,7 +95,25 @@
 
       
       <h2 class="favorite-heading">Explore Our Favorite Photosets</h2>
-      <section class="favorites">
+      <div class="favorites">
+      <div class="container ">
+        <button type="button" id="moveLeft" class="btn-nav"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="container-indicators">
+          <div class="indicator active" data-index="0"></div>
+          <div class="indicator" data-index="1"></div>
+          <div class="indicator" data-index="2"></div>
+        </div>
+        <div class="slider" id="mySlider">
+          <div class="movie" id="movie0">
+            <a href="" id="links"><img src="" alt="" srcset="" /></a>
+            
+            
+          </div>
+        </div>
+        <button type="button" id="moveRight" class="btn-nav"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+      </div>
+      <!-- <section class="favorites">
         <div class="above-photos btn-next">
           <i class="fa-solid fa-chevron-left"></i>
         </div>
@@ -113,7 +132,7 @@
            <div class="above-photos btn-prev">
           <i class="fa-solid fa-chevron-right"></i>
         </div>
-      </section>
+      </section> -->
       
 
       <section class="email-sign-up">
