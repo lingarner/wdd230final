@@ -25,9 +25,9 @@ let movies = [
     src: "https://lingarner.github.io/wdd230final/final/images/fave4.png",
     href: "https://lingarner.github.io/wdd230final/final/aravipa.html",
   },
-  {
-    src: "https://lingarner.github.io/wdd230final/final/images/timp-set/9-300.png",
-  },
+  //   {
+  //     src: "https://lingarner.github.io/wdd230final/final/images/timp-set/9-300.png",
+  //   },
 ];
 
 // Fill the slider with all the movies in the "movies" array

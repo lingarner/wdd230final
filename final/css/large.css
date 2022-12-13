@@ -370,4 +370,8 @@
     grid-template-rows: 1fr 1fr;
     row-gap: 40px;
   }
+  .slider {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
 }

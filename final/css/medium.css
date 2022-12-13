@@ -20,6 +20,7 @@
   }
 
   .purpose {
+    display: flex;
     align-items: center;
   }
 
@@ -131,8 +132,9 @@
   #pictitles:hover {
     color: #f6b379;
   }
+
   .slider {
-    overflow-x: hidden;
+    overflow-x: scroll;
     overflow-y: hidden;
   }
 
