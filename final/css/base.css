@@ -459,3 +459,11 @@ i {
 form {
   margin: 0 auto;
 }
+
+#thanks {
+  color: white;
+  font-size: 80px;
+  text-shadow: 8px 8px 10px black;
+  text-align: center;
+  margin-top: 10%;
+}
