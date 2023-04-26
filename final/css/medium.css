@@ -19,6 +19,10 @@
     object-fit: cover;
   }
 
+  .head-icons{
+    font-size: 20px;
+  }
+
   .purpose {
     display: flex;
     align-items: center;

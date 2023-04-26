@@ -58,6 +58,7 @@ nav img {
   margin: auto 0;
   width: 260px;
   display: inline;
+  grid-column: 1;
 }
 
 nav ul {

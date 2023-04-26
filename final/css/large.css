@@ -41,6 +41,8 @@
     justify-content: space-around;
 
     align-items: center;
+
+    grid-column: 2;
   }
 
   ul {
